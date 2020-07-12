@@ -15,7 +15,7 @@ func main() {
 
 		f := fib()
 
-		res := &response{Message: "wuhhuuu! This actually works!"}
+		res := &response{Message: "This is a sample message to be printed once the app is running!"}
 
 		for _, e := range os.Environ() {
 			pair := strings.Split(e, "=")
